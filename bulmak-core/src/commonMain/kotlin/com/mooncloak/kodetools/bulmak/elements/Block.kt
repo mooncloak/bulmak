@@ -12,7 +12,7 @@ import kotlinx.html.div
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/block/)
  */
 public inline fun FlowContent.block(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: DIV.() -> Unit = {}
 ) {

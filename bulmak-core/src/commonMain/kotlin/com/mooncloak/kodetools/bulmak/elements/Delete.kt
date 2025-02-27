@@ -10,7 +10,7 @@ import kotlinx.html.*
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/delete/)
  */
 public inline fun FlowOrInteractiveOrPhrasingContent.delete(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: BUTTON.() -> Unit = {}
 ) {

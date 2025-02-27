@@ -10,7 +10,7 @@ import kotlinx.html.*
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/icon/)
  */
 public inline fun FlowContent.icon(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: SPAN.() -> Unit = {}
 ) {

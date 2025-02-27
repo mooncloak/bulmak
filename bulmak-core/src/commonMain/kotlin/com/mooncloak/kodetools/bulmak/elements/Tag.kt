@@ -10,7 +10,7 @@ import kotlinx.html.*
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/tag/)
  */
 public inline fun FlowContent.tag(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: SPAN.() -> Unit = {}
 ) {
@@ -26,7 +26,7 @@ public inline fun FlowContent.tag(
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/tag/#list-of-tags)
  */
 public inline fun FlowContent.tags(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: DIV.() -> Unit = {}
 ) {

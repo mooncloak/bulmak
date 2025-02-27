@@ -13,7 +13,7 @@ import kotlinx.html.div
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/table/#table-container)
  */
 public inline fun FlowContent.tableContainer(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: DIV.() -> Unit = {}
 ) {

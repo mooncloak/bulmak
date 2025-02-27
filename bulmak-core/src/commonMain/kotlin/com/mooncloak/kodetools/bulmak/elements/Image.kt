@@ -10,7 +10,7 @@ import kotlinx.html.*
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/image/)
  */
 public inline fun FlowContent.image(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: FIGURE.() -> Unit = {}
 ) {

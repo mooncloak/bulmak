@@ -10,7 +10,7 @@ import kotlinx.html.*
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/title/)
  */
 public inline fun FlowContent.title(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: H1.() -> Unit = {}
 ) {
@@ -26,7 +26,7 @@ public inline fun FlowContent.title(
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/title/)
  */
 public inline fun FlowContent.subtitle(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: H2.() -> Unit = {}
 ) {

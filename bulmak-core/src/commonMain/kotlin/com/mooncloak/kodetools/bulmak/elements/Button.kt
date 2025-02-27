@@ -4,12 +4,18 @@ import com.mooncloak.kodetools.bulmak.modifier.BulmaModifier
 import com.mooncloak.kodetools.bulmak.modifier.plus
 import kotlinx.html.*
 
+/**
+ * A container for Button elements.
+ *
+ * @see [Bulma Documentation](https://bulma.io/documentation/elements/button/)
+ */
 public inline fun FlowContent.buttons(
-    classes: BulmaModifier? = null,
+    classes: String? = null,
+    modifiers: BulmaModifier? = null,
     crossinline block: DIV.() -> Unit = {}
 ) {
     div(
-        classes = (BulmaModifier("buttons") + classes).value,
+        classes = (BulmaModifier("buttons") + modifiers + classes).value,
         block = block
     )
 }
@@ -24,7 +30,7 @@ public inline fun FlowOrInteractiveOrPhrasingContent.regularButton(
     formMethod: ButtonFormMethod? = null,
     name: String? = null,
     type: ButtonType? = null,
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: BUTTON.() -> Unit = {}
 ) {
@@ -47,7 +53,7 @@ public inline fun FlowOrInteractiveOrPhrasingContent.linkButton(
     href: String? = null,
     target: String? = null,
     referrerPolicy: AReferrerPolicy? = null,
-    classes: BulmaModifier? = null,
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: A.() -> Unit = {}
 ) {

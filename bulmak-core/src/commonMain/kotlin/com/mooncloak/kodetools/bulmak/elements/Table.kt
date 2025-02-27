@@ -18,8 +18,8 @@ import kotlinx.html.*
  *
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/table)
  */
-public inline fun FlowContent.table(
-    classes: BulmaModifier? = null,
+public inline fun FlowContent.defaultTable(
+    classes: String? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: TABLE.() -> Unit = {}
 ) {
