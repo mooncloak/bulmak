@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+    - alias: "kodetools@mooncloak.com"
+      website: "https://kodetools.mooncloak.codes"
+contact:
+    - alias: "kodetools@mooncloak.com"
+      website: "https://kodetools.mooncloak.codes"
+title: "bulmak"
+type: "software"
+abstract: "kotlinx.html Bulma components."
+license: "Apache-2.0"
+keywords:
+    - "kotlin"
+    - "multiplatform"
+    - "bulma"
+    - "kotlinx.html"
+    - "kotlinx"
+    - "html"
+    - "css"
+repository-code: "https://github.com/mooncloak/bulmak"
+url: "https://github.com/mooncloak/bulmak"
