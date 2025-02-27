@@ -29,7 +29,37 @@ repositories {
 ### Dependencies
 
 ```kotlin
+// kotlinx.html required
+// https://github.com/Kotlin/kotlinx.html
+implementation("org.jetbrains.kotlinx:kotlinx-html:VERSION")
+
+// kotlinx html Bulma wrapper
 implementation("com.mooncloak.kodetools.bulmak:bulmak-core:VERSION")
+```
+
+## Usage 👨‍💻
+
+```kotlin 
+import com.mooncloak.kodetools.bulmak.layout.hero
+import kotlinx.html.body
+import kotlinx.html.html
+import kotlinx.html.p
+import kotlinx.html.stream.appendHTML
+
+private fun main() {
+    // Example using Bulma's "Hero" component in the body of an HTML document.
+    // https://bulma.io/documentation/layout/hero/
+    System.out.appendHTML().html {
+        body {
+            hero {
+                body {
+                    p("title") { +"Hero Title" }
+                    p("subtitle") { +"Hero Subtitle" }
+                }
+            }
+        }
+    }
+}
 ```
 
 ## Documentation 📃
