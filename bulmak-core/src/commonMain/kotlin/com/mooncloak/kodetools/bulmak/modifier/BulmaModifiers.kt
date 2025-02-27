@@ -245,3 +245,7 @@ public val has11Cols: BulmaModifier = BulmaModifier(value = "has-11-cols")
 public val has12Cols: BulmaModifier = BulmaModifier(value = "has-12-cols")
 
 public val hasAutoCount: BulmaModifier = BulmaModifier(value = "has-auto-count")
+
+public val section: BulmaModifier = BulmaModifier(value = "section")
+
+public val hasTextCentered: BulmaModifier = BulmaModifier(value = "has-text-centered")
