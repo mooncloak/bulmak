@@ -7,17 +7,18 @@ import kotlinx.html.FlowContent
 import kotlinx.html.div
 
 /**
- * Represents Bulma's spacer Block element.
+ * Represents Bulma's Table Container element. A table container is used to wrap a Table element to make it
+ * horizontally scrollable.
  *
- * @see [Bulma Documentation](https://bulma.io/documentation/elements/block/)
+ * @see [Bulma Documentation](https://bulma.io/documentation/elements/table/#table-container)
  */
-public inline fun FlowContent.block(
+public inline fun FlowContent.tableContainer(
     classes: BulmaModifier? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: DIV.() -> Unit = {}
 ) {
     div(
-        classes = (BulmaModifier("block") + modifiers + classes).value,
+        classes = (BulmaModifier("table-container") + modifiers + classes).value,
         block = block
     )
 }

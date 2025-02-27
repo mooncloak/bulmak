@@ -1,4 +1,4 @@
-package com.mooncloak.kodetools.bulmak.classes
+package com.mooncloak.kodetools.bulmak.modifier
 
 import kotlin.jvm.JvmInline
 

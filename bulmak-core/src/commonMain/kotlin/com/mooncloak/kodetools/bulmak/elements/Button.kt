@@ -1,7 +1,7 @@
 package com.mooncloak.kodetools.bulmak.elements
 
-import com.mooncloak.kodetools.bulmak.classes.BulmaModifier
-import com.mooncloak.kodetools.bulmak.classes.plus
+import com.mooncloak.kodetools.bulmak.modifier.BulmaModifier
+import com.mooncloak.kodetools.bulmak.modifier.plus
 import kotlinx.html.*
 
 public inline fun FlowContent.buttons(
@@ -19,7 +19,7 @@ public inline fun FlowContent.buttons(
  *
  * @see [Bulma Documentation](https://bulma.io/documentation/elements/button/)
  */
-public inline fun FlowOrInteractiveOrPhrasingContent.coreButton(
+public inline fun FlowOrInteractiveOrPhrasingContent.regularButton(
     formEncType: ButtonFormEncType? = null,
     formMethod: ButtonFormMethod? = null,
     name: String? = null,

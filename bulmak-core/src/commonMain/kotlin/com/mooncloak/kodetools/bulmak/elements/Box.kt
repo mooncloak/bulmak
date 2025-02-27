@@ -1,7 +1,7 @@
 package com.mooncloak.kodetools.bulmak.elements
 
-import com.mooncloak.kodetools.bulmak.classes.BulmaModifier
-import com.mooncloak.kodetools.bulmak.classes.plus
+import com.mooncloak.kodetools.bulmak.modifier.BulmaModifier
+import com.mooncloak.kodetools.bulmak.modifier.plus
 import kotlinx.html.DIV
 import kotlinx.html.FlowContent
 import kotlinx.html.div

@@ -7,17 +7,17 @@ import kotlinx.html.FlowContent
 import kotlinx.html.div
 
 /**
- * Represents Bulma's spacer Block element.
+ * Represents Bulma's Content element.
  *
- * @see [Bulma Documentation](https://bulma.io/documentation/elements/block/)
+ * @see [Bulma Documentation](https://bulma.io/documentation/elements/content/)
  */
-public inline fun FlowContent.block(
+public inline fun FlowContent.content(
     classes: BulmaModifier? = null,
     modifiers: BulmaModifier? = null,
     crossinline block: DIV.() -> Unit = {}
 ) {
     div(
-        classes = (BulmaModifier("block") + modifiers + classes).value,
+        classes = (BulmaModifier("content") + modifiers + classes).value,
         block = block
     )
 }
