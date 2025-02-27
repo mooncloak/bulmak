@@ -1,3 +1,8 @@
+public final class com/mooncloak/kodetools/bulmak/InstallKt {
+	public static final fun bulmaLink (Lkotlinx/html/HEAD;Ljava/lang/String;)V
+	public static synthetic fun bulmaLink$default (Lkotlinx/html/HEAD;Ljava/lang/String;ILjava/lang/Object;)V
+}
+
 public final class com/mooncloak/kodetools/bulmak/column/ColumnBuilder {
 	public final fun column-mE5sL4c (Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 	public static synthetic fun column-mE5sL4c$default (Lcom/mooncloak/kodetools/bulmak/column/ColumnBuilder;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
