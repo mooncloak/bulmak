@@ -101,7 +101,7 @@ public class NavbarItemContainerBuilder internal constructor(
         }
     }
 
-    public fun item(
+    public fun plainItem(
         classes: String? = null,
         modifiers: BulmaModifier? = null,
         block: DIV.() -> Unit = {}
@@ -131,7 +131,7 @@ public class NavbarItemContainerBuilder internal constructor(
         }
     }
 
-    public fun linkItem(
+    public fun plainLinkItem(
         href: String? = null,
         target: String? = null,
         referrerPolicy: AReferrerPolicy? = null,

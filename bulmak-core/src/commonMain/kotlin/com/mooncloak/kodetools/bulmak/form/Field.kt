@@ -9,7 +9,7 @@ import kotlinx.html.*
  *
  * @see [Bulma Documentation](https://bulma.io/documentation/form/general/)
  */
-public fun FlowContent.field(
+public fun FlowContent.customField(
     classes: String? = null,
     modifiers: BulmaModifier? = null,
     block: DIV.() -> Unit = {}
